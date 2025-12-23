@@ -1,0 +1,18 @@
+-e .
+
+# Core ML stack
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+xgboost>=2.0
+
+# PyTorch + PyG
+# For GPU/CPU specific wheels, follow the PyTorch Geometric install guide.
+torch>=2.1
+torch-geometric>=2.5
+
+# Transformers + reranker
+transformers>=4.39
+peft>=0.10
+accelerate>=0.27
+sentence-transformers>=2.6
